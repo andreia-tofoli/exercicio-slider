@@ -1,0 +1,91 @@
+.slide {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    /* Define o contexto para posicionar elementos filhos */
+    max-width: 1920px;
+    max-height: 1080px;
+
+}
+
+.slide img {
+
+
+    /* Mantém a proporção da imagem sem distorcer */
+}
+
+.slide .descricao {
+    position: absolute;
+    width: 620px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: white;
+    left: 180px;
+    font-family: "Roboto", serif;
+}
+
+.slide .descricao h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    padding: 65px 198px 81px 60px;
+}
+
+.slide .descricao p {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    padding: 0px 60px 50px 60px;
+}
+
+.slide .saiba-mais a {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.slide-1 .saiba-mais a {
+    color: #C50000;
+}
+
+.slide-2 .saiba-mais a {
+    color: #D9DD10;
+}
+
+.slide-3 .saiba-mais a {
+    color:#A63A17;
+}
+
+.slide-4 .saiba-mais a {
+    color:#10ACDD;
+}
+
+.seta {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.seta-esquerda {
+    left: 20px;
+}
+
+.seta-esquerda img {
+    width: 56px;
+}
+
+.seta-direita {
+    right: 20px;
+}
+
+.seta.desativada {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
