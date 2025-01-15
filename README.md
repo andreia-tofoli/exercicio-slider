@@ -1,6 +1,6 @@
 # Projeto de Slider de Imagens - HTML, CSS e JavaScript
 
-Este repositório contém um projeto de **slider de imagens** desenvolvido utilizando **HTML**, **CSS** e **JavaScript**. O objetivo é criar uma interface de navegação simples, fluida e responsiva para exibição de imagens sequenciais.
+Este repositório contém um projeto de **slider de imagens** desenvolvido utilizando **HTML**, **CSS** e **JavaScript**. O objetivo é criar uma interface de navegação simples e fluida para exibição de imagens sequenciais.
 
 ## Objetivo
 O projeto foi criado para prática de **JavaScript** e manipulação do DOM, além de explorar conceitos de **transições em CSS** e **eventos de clique** para interatividade.
