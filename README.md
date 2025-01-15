@@ -23,7 +23,7 @@ O projeto foi criado para prática de **JavaScript** e manipulação do DOM, al�
 ## Exemplo do Projeto
 Aqui está uma prévia visual do projeto:
 
-![Demonstração do Projeto](imagens\animacao.gif)
+![Demonstração do Projeto](imagens/animacao.gif)
 
 ## Como Usar o Projeto
 1. **Clone o repositório**:
